@@ -1,138 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Future Fix - Empowering Young Innovators</title>
-    <link rel="stylesheet" href="styles.css">
-    <!-- Google Fonts for modern look -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;400&display=swap" rel="stylesheet">
-    <!-- Font Awesome for social icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FutureFix – Empowering Young Innovators</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#fafafa; color:#222; }
+    header { background:#0a3d62; color:#fff; padding:20px; text-align:center; }
+    header img { height:80px; }
+    nav { margin-top:10px; }
+    nav a { color:#fff; margin:0 12px; text-decoration:none; font-weight:bold; }
+    section { padding:60px 20px; max-width:1100px; margin:auto; }
+    h1,h2,h3 { color:#0a3d62; }
+    .hero { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:30px; }
+    .hero img { max-width:400px; border-radius:8px; }
+    .cta { margin-top:20px; }
+    .btn { padding:12px 20px; border-radius:6px; background:#0a3d62; color:#fff; text-decoration:none; }
+    .grid-3 { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:20px; }
+    .card { background:#fff; padding:20px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.1); }
+    .team { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px; }
+    .team .card { text-align:center; }
+    footer { background:#0a3d62; color:#fff; text-align:center; padding:30px 20px; margin-top:40px; }
+    footer a { color:#fff; text-decoration:none; }
+  </style>
 </head>
 <body>
-    <header>
-        <div class="container header-flex">
-            <img src="logo.png" alt="Future Fix Logo" class="logo">
-            <nav>
-                <a href="#mission">Mission</a>
-                <a href="#events">Events</a>
-                <a href="#volunteer">Volunteer</a>
-                <a href="#team">Team</a>
-                <a href="#contact">Contact</a>
-            </nav>
-        </div>
-        <div class="hero container">
-            <h1>Empowering Young Innovators Together</h1>
-            <p>Join us in fostering creativity and problem-solving skills.</p>
-            <a href="#signup" class="btn">Get Involved Now</a>
-        </div>
-    </header>
+  <header>
+    <img src="logo.jpg" alt="FutureFix Logo"/>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#events">Events</a>
+      <a href="#team">Team</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-    <main>
-        <section id="mission" class="container section">
-            <h2>Our Mission</h2>
-            <p>
-                FutureFix is a student-led nonprofit that empowers middle and high school students to solve real-world problems through creative thinking, teamwork, and hands-on design. Using accessible materials—like wood, cardboard, and simple tools—students bring their ideas to life by building functional prototypes that address real-world challenges.
-            </p>
-            <p>
-                But FutureFix goes beyond just building. Participants also learn how to pitch their ideas to a panel of judges or simulated "investors," strengthening their confidence, communication, and entrepreneurial thinking. Events are competitive, with teams earning prizes based on creativity, functionality, and presentation—preparing the next generation of builders and leaders.
-            </p>
-        </section>
+  <section class="hero">
+    <div>
+      <h1>Empowering Young Innovators Together</h1>
+      <p>Join us in fostering creativity and problem‑solving skills.</p>
+      <div class="cta">
+        <a href="#about" class="btn">Get Involved Now</a>
+      </div>
+    </div>
+    <img src="idea-image.png" alt="Student innovation illustration"/>
+  </section>
 
-        <section id="events" class="container section">
-            <h2>Events</h2>
-            <p>
-                FutureFix events bring students together to solve real-world problems using hands-on materials and creative thinking. Teams design, build, and pitch their ideas to judges—competing for prizes and learning real innovation skills. 
-            </p>
-            <div class="event-status">
-                <strong>EVENT DATES YET TO BE DECIDED</strong>
-            </div>
-        </section>
+  <section id="about">
+    <h2>Our Mission</h2>
+    <p>FutureFix is a student-led nonprofit that empowers middle and high school students to solve real-world problems through creative thinking, teamwork, and hands-on design. Using accessible materials—like wood, cardboard, and simple tools—students bring their ideas to life by building functional prototypes that address real-world challenges.</p>
+    <p>But FutureFix goes beyond just building. Participants also learn how to pitch their ideas to a panel of judges or simulated "investors," strengthening their confidence, communication, and entrepreneurial thinking. Events are competitive, with teams earning prizes based on creativity, functionality, and presentation—preparing the next generation of builders and leaders.</p>
+  </section>
 
-        <section id="volunteer" class="container section">
-            <h2>Volunteer Opportunities</h2>
-            <p>
-                Volunteers are the backbone of our organization. We offer a variety of opportunities for individuals and groups to get involved. We offer volunteer hours for events.
-            </p>
-            <a href="#contact" class="btn">Apply Now</a>
-        </section>
+  <section id="events">
+    <h2>Events</h2>
+    <div class="grid-3">
+      <div class="card">
+        <h3>Our Mission</h3>
+        <p>At FutureFix, our mission is to empower middle and high school students to tackle real‑world challenges through innovative thinking. We believe every student has the potential to create impactful solutions that can change their communities.</p>
+      </div>
+      <div class="card">
+        <h3>Events</h3>
+        <p>FutureFix events bring students together to solve real‑world problems using hands‑on materials and creative thinking. Teams design, build, and pitch their ideas to judges—competing for prizes and learning real innovation skills.</p>
+        <p><em>Event dates yet to be decided</em></p>
+      </div>
+      <div class="card">
+        <h3>Volunteer Opportunities</h3>
+        <p>Volunteers are the backbone of our organization. We offer a variety of opportunities for individuals and groups to get involved. Volunteer hours are available for events.</p>
+      </div>
+    </div>
+  </section>
 
-        <section id="team" class="container section">
-            <h2>Meet The Team</h2>
-            <div class="team-grid">
-                <div class="team-member">
-                    <div class="photo-placeholder">Photo</div>
-                    <h3>President</h3>
-                    <p>Provides overall leadership, guides long-term planning, and ensures the organization stays aligned with its mission and goals.</p>
-                </div>
-                <div class="team-member">
-                    <div class="photo-placeholder">Photo</div>
-                    <h3>Vice President</h3>
-                    <p>Supports the President in leadership duties and helps oversee the organization’s operations, ensuring effective coordination across all teams.</p>
-                </div>
-                <div class="team-member">
-                    <div class="photo-placeholder">Photo</div>
-                    <h3>Build Captain</h3>
-                    <p>Manages the safe and efficient use of tools, organizes access to materials, and ensures teams have the resources they need during build sessions and events.</p>
-                </div>
-                <div class="team-member">
-                    <div class="photo-placeholder">Photo</div>
-                    <h3>Finance Head</h3>
-                    <p>Oversees all financial matters, including budgeting, tracking expenses, and managing funds to ensure the organization operates smoothly and sustainably.</p>
-                </div>
-                <div class="team-member">
-                    <div class="photo-placeholder">Photo</div>
-                    <h3>Challenge Designer</h3>
-                    <p>Develops creative and engaging event prompts, designs challenge formats, and establishes clear rules and guidelines to ensure a fair and stimulating experience for all participants.</p>
-                </div>
-                <div class="team-member">
-                    <div class="photo-placeholder">Photo</div>
-                    <h3>Outreach Director</h3>
-                    <p>Collaborates with the Media Head to promote engagement and increase participation through school connections, partnerships, and community outreach initiatives.</p>
-                </div>
-                <div class="team-member">
-                    <div class="photo-placeholder">Photo</div>
-                    <h3>Media Head</h3>
-                    <p>Promotes events through digital platforms, manages the organization’s social media presence, and creates content to engage and grow the community.</p>
-                </div>
-                <div class="team-member">
-                    <div class="photo-placeholder">Photo</div>
-                    <h3>Event Manager</h3>
-                    <p>Coordinates event logistics, including registration, venue setup, scheduling, and judging procedures to ensure smooth and organized execution.</p>
-                </div>
-            </div>
-        </section>
+  <section id="team">
+    <h2>Meet The Team</h2>
+    <div class="team">
+      <div class="card"><h3>President</h3><p>Provides overall leadership, guides long‑term planning, and ensures the organization stays aligned with its mission and goals.</p></div>
+      <div class="card"><h3>Vice President</h3><p>Supports the President in leadership duties and helps oversee the organization’s operations, ensuring effective coordination across all teams.</p></div>
+      <div class="card"><h3>Build Captain</h3><p>Manages the safe and efficient use of tools, organizes access to materials, and ensures teams have the resources they need during build sessions and events.</p></div>
+      <div class="card"><h3>Finance Head</h3><p>Oversees all financial matters, including budgeting, tracking expenses, and managing funds to ensure the organization operates smoothly and sustainably.</p></div>
+      <div class="card"><h3>Challenge Designer</h3><p>Develops creative and engaging event prompts, designs challenge formats, and establishes clear rules and guidelines to ensure a fair and stimulating experience for all participants.</p></div>
+      <div class="card"><h3>Outreach Director</h3><p>Collaborates with the Media Head to promote engagement and increase participation through school connections, partnerships, and community outreach initiatives.</p></div>
+      <div class="card"><h3>Media Head</h3><p>Promotes events through digital platforms, manages the organization’s social media presence, and creates content to engage and grow the community.</p></div>
+      <div class="card"><h3>Event Manager</h3><p>Coordinates event logistics, including registration, venue setup, scheduling, and judging procedures to ensure smooth and organized execution.</p></div>
+    </div>
+  </section>
 
-        <section id="signup" class="container section">
-            <h2>Subscribe For Free</h2>
-            <p>Sign up to learn about upcoming events</p>
-            <form class="subscribe-form">
-                <input type="email" placeholder="Email" required>
-                <button type="submit">Sign Up</button>
-            </form>
-        </section>
-    </main>
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Message us on WhatsApp</p>
+    <p>Email: futurefix2025@gmail.com</p>
+    <p>Instagram: @future_fix2025</p>
+    <p>TikTok: @future.fix6</p>
+    <h3>Subscribe</h3>
+    <form>
+      <input type="email" placeholder="Email" required>
+      <button class="btn" type="submit">Sign Up</button>
+    </form>
+  </section>
 
-    <footer id="contact" class="container">
-        <h2>Contact Us</h2>
-        <div class="contact-options">
-            <a href="https://wa.me/yourwhatsapplink" target="_blank" title="WhatsApp">
-                <i class="fab fa-whatsapp"></i>
-            </a>
-            <a href="https://instagram.com/future_fix2025" target="_blank" title="Instagram">
-                <i class="fab fa-instagram"></i>
-            </a>
-            <a href="https://tiktok.com/@future.fix6" target="_blank" title="TikTok">
-                <i class="fab fa-tiktok"></i>
-            </a>
-            <a href="mailto:futurefix2025@gmail.com" title="Email">
-                <i class="fas fa-envelope"></i>
-            </a>
-        </div>
-        <div class="copyright">
-            Copyright © 2025 Future Fix - All Rights Reserved.
-        </div>
-    </footer>
+  <footer>
+    <p>Copyright © 2025 FutureFix – All Rights Reserved.</p>
+  </footer>
 </body>
 </html>
